@@ -57,6 +57,52 @@
     </choice>
 </page>
 
+<page id="03">
+    <title>
+        You examine the stage.
+    </title>
+    <scene>
+        A medium sized stack of speakers are connected to a rats nest of tangled threadbare cables. 
+        Leaned against them is a crimson electric guitar that's seen better days. The stage is wooden, the boards 
+        stained with decades of spilled beer and other liquids of dubious origin.
+    </scene>
+    <action>
+        You look back to the crowd to be met with expectant stares. Looks like they want a show.
+    </action>
+    <choice>
+        <text>
+            Attempt to play the guitar.
+        </text>
+        <linkNumber>
+            08
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Perform stand-up comedy.
+        </text>
+        <linkNumber>
+            09
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Expand upon your thoughts regarding the current political climate.
+        </text>
+        <linkNumber>
+            10
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Back away from the stage.
+        </text>
+        <linkNumber>
+            11
+        </linkNumber>
+    </choice>
+</page>
+
 <page id="06">
     <title>
         You ascend the stairs.
@@ -65,7 +111,7 @@
         Uncertain and fearful of the new environment, you immediately turn around and begin to retreat,
         as is your standard. In your haste, you fumble midway through your climb and tumble back downwards.
         As you regain consciousness, you find yourself sat at one of the tables you had noticed littering
-        the room.
+        the room. Nobody seems to care regarding your buffoonery.
     </scene>
     <action>
         Confused, you contemplate staying a bit after all. It might be nice.
@@ -75,7 +121,7 @@
             Take a seat at the bar.
         </text>
         <linkNumber>
-            02
+            13
         </linkNumber>
     </choice>
     <choice>
@@ -83,7 +129,7 @@
             Examine the stage.
         </text>
         <linkNumber>
-            03
+            13
         </linkNumber>
     </choice>
     <choice>
@@ -91,7 +137,55 @@
             Mingle about with some of the patrons.
         </text>
         <linkNumber>
-            04
+            13
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Explore the room more deeply.
+        </text>
+        <linkNumber>
+            13
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Exit the room (again).
+        </text>
+        <linkNumber>
+            13
+        </linkNumber>
+    </choice>
+</page>
+
+<page id="10">
+    <title>
+        You proselytize.
+    </title>
+    <scene>
+        You speak with passion and energy, regaling the audience with engaging anecdotes and
+        carefully articulated assessments. Two hours later, you conclude the lecture with stunned
+        silence from your viewers. Unfortunately, you forgot that you are an idiot and nothing
+        you had said made any sense. Luckily, nobody seems to care.
+    </scene>
+    <action>
+        You step down from the stage consider your next move. Whatever it is, it will surely be
+        less awkward than this.
+    </action>
+    <choice>
+        <text>
+            Take a seat at the bar.
+        </text>
+        <linkNumber>
+            11
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            12
         </linkNumber>
     </choice>
     <choice>
@@ -100,14 +194,6 @@
         </text>
         <linkNumber>
             05
-        </linkNumber>
-    </choice>
-    <choice>
-        <text>
-            Exit the room (again).
-        </text>
-        <linkNumber>
-            07
         </linkNumber>
     </choice>
 </page>
