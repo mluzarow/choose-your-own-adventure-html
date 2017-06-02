@@ -32,7 +32,18 @@ body {
     margin-left: 30%;
 }
 
-.choice a {
+.choices button {
     text-decoration: none;
-    color: red;
+    display: block;
+    width: 100%;
+    font-size: 16pt;
+    color: white;
+    background-color: red;
+    border: none;
+    margin: 3px 0px;
+    padding: 5px 0px;
+}
+.choices button:hover {
+    cursor: pointer;
+    background-color: #F36F6F;
 }

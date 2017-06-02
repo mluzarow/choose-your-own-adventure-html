@@ -47,12 +47,16 @@ function loadPage (pageNumber) {
     elementScene.innerHTML = requestedPage.scene;
     elementAction.innerHTML = requestedPage.action;
     
+    elementChoices.innerHTML = "";
+    
     for (var i = 0; i < requestedPage.choices.length; i++) {
-        var fullLink = "https://mluzarow.github.io/choose-your-own-adventure/" + requestedPage.choices [i].linkNumber;
-    
-        elementChoices.innerHTML += "<div class=choice><a href=\"" + fullLink + "\">&#187; " + requestedPage.choices [i].text + "</a></div>";
+        var newChoice = document.createElement ("BUTTON");
+        newChoice.innerHTML = requestedPage.choices [i].text;
+        newChoice.id = requestedPage.choices [i].linkNumber;
+        newChoice.addEventListener ("click", function () {loadPage (this.id);}, false);
+        
+        elementChoices.appendChild (newChoice);
     }
-    
 }
 
 function processGameText (data) {
