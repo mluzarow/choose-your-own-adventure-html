@@ -12,7 +12,9 @@ class Page {
         this.action = action;
         
         if (!choices) {
-            choices = new Array ();
+            this.choices = new Array ();
+        } else {
+            this.choices = choices;
         }
     }
 }
@@ -34,22 +36,21 @@ window.onload = function () {
     // Dump the entire game into RAM
     loadGameText ();
     
-    // Load the first page of the adventure
-    loadPage ("01");
+    
 }
 
 function loadPage (pageNumber) {
     // Load page
     var requestedPage = pages [pageNumber];
     
-    elementTitle.innerHTML = pages [pageNumber].title;
-    elementScene.innerHTML = pages [pageNumber].scene;
-    elementAction.innerHTML = pages [pageNumber].action;
+    elementTitle.innerHTML = requestedPage.title;
+    elementScene.innerHTML = requestedPage.scene;
+    elementAction.innerHTML = requestedPage.action;
     
     for (var i = 0; i < requestedPage.choices.length; i++) {
         var fullLink = "https://mluzarow.github.io/choose-your-own-adventure/" + requestedPage.choices [i].linkNumber;
     
-        elementChoices.innerHTML += "<div class=choice><a href=\"" + fullLink + "\">" + requestedPage.choices [i].text + "</a></div>";
+        elementChoices.innerHTML += "<div class=choice><a href=\"" + fullLink + "\">&#187; " + requestedPage.choices [i].text + "</a></div>";
     }
     
 }
@@ -89,6 +90,9 @@ function processGameText (data) {
     }
     //=========== Debug Stuff ============
     console.log (pages ["01"]);
+    
+    // Load the first page of the adventure
+    loadPage ("01");
 }
 
 function loadGameText () {
