@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    font-family: "Arial";
+}
+
+.title {
+    font-size: 72pt;
+    padding-left: 15px;
+}
+
+.content {
+    font-size: 18pt;
+    color: grey;
+    margin: 0px 15%;
+}
+
+.action {
+    padding-top: 20px;
+    font-size: 18pt;
+    color: white;
+}
+
+.choices {
+    font-size: 20pt;
+    background-color: darkred;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-left: 30%;
+}
+
+.choice a {
+    text-decoration: none;
+    color: red;
+}
