@@ -137,7 +137,7 @@
             Mingle about with some of the patrons.
         </text>
         <linkNumber>
-            13
+            14
         </linkNumber>
     </choice>
     <choice>
@@ -194,6 +194,100 @@
         </text>
         <linkNumber>
             05
+        </linkNumber>
+    </choice>
+</page>
+
+<page id="13">
+    <title>
+        You attempt to rise from your seat.
+    </title>
+    <scene>
+        Overwhelming attraction to maintain seated envelops your being. You quickly rationalize
+        that this is a psychic force pushing you into the chair. You look to the ceiling as you
+        fight with all your mental might and prowess to overcome the mysterious binding.
+        
+        After a good forty five minutes, you slump, defeated and in anguish. You attempt to place
+        your head in your hands but forget that your hands are bound. You examine your arms only 
+        to find that they have been secured to the armrests with metal chains, as are your feet
+        to the legs of the chair. Perhaps you should have dealt with that first.
+    </scene>
+    <action>
+        You consider your next escape attempt.
+    </action>
+    <choice>
+        <text>
+            Power up like a super saiyan and break these chains.
+        </text>
+        <linkNumber>
+            14
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Rock the chair until the legs break off.
+        </text>
+        <linkNumber>
+            15
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Pick to lock of the chain.
+        </text>
+        <linkNumber>
+            16
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            02
+        </linkNumber>
+    </choice>
+</page>
+
+<page id="14">
+    <title>
+        You power up.
+    </title>
+    <scene>
+        You decide to channel all of your inner energy into powering up. You close your eyes
+        and concentrate, feeling the raw power build up within you. Soon, there is a tingling
+        spread through your limbs. You utter a shallow yell. As your spirit builds, you scream
+        louder and louder. Soon, you are bellowing at the top of your lungs. You feel as though
+        you can crush the world in your hands. You are the most powerful man in the universe.
+        It soon occurs to you that you have been doing nothing but yelling for roughly an hour
+        and had done nothing about your situation.
+    </scene>
+    <action>
+        Out of breath and spiritually drained, you think of another approach. You are a regular
+        old Houdini, you know that?
+    </action>
+    <choice>
+        <text>
+            Rock the chair until the legs break off.
+        </text>
+        <linkNumber>
+            17
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Pick to lock of the chain.
+        </text>
+        <linkNumber>
+            18
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            02
         </linkNumber>
     </choice>
 </page>
