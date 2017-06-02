@@ -21,24 +21,32 @@
         <linkNumber>
             02
         </linkNumber>
+    </choice>
+    <choice>
         <text>
             Examine the stage.
         </text>
         <linkNumber>
             03
         </linkNumber>
+    </choice>
+    <choice>
         <text>
             Mingle about with some of the patrons.
         </text>
         <linkNumber>
             04
         </linkNumber>
+    </choice>
+    <choice>
         <text>
             Explore the room more deeply.
         </text>
         <linkNumber>
             05
         </linkNumber>
+    </choice>
+    <choice>
         <text>
             Exit the room.
         </text>

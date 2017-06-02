@@ -42,9 +42,9 @@ function loadPage (pageNumber) {
     // Load page
     var requestedPage = pages [pageNumber];
     
-    elementTitle.innerHTML = requestedPage.title;
-    elementScene.innerHTML = requestedPage.scene;
-    elementAction.innerHTML = requestedPage.action;
+    elementTitle.innerHTML = pages [pageNumber].title;
+    elementScene.innerHTML = pages [pageNumber].scene;
+    elementAction.innerHTML = pages [pageNumber].action;
     
     for (var i = 0; i < requestedPage.choices.length; i++) {
         var fullLink = "https://mluzarow.github.io/choose-your-own-adventure/" + requestedPage.choices [i].linkNumber;
@@ -72,24 +72,23 @@ function processGameText (data) {
         
         // For each choice, make a new Choice class
         for (var j = 0; j < rawChoices.length; j++) {
-            var choice = new Choice (rawChoices [j].text,
-                                     rawChoices [j].linkNumber);
+            var choiceToken = new Choice (rawChoices [j].getElementsByTagName ("text") [0].innerHTML,
+                                          rawChoices [j].getElementsByTagName ("linkNumber") [0].innerHTML);
             
-            choices.push (choice);
+            choices.push (choiceToken);
         }
     
         // Second, build the rest of the page class
-        var page = new Page (rawPages [i].getElementsByTagName ("title") [0],
-                             rawPages [i].getElementsByTagName ("scene") [0],
-                             rawPages [i].getElementsByTagName ("action") [0],
-                             choices);
+        var pageToken = new Page (rawPages [i].getElementsByTagName ("title") [0].innerHTML,
+                                  rawPages [i].getElementsByTagName ("scene") [0].innerHTML,
+                                  rawPages [i].getElementsByTagName ("action") [0].innerHTML,
+                                  choices);
         
         // Enter page into page dictionary
-        pages [rawPages [i].id] = page;
+        pages [rawPages [i].id] = pageToken;
     }
     //=========== Debug Stuff ============
     console.log (pages ["01"]);
-    
 }
 
 function loadGameText () {
