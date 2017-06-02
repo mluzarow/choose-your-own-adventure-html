@@ -1,0 +1,49 @@
+<page id="01">
+    <title>
+        You enter a dark room.
+    </title>
+    <scene>
+        An unfortunate tinge of must hits your nostrils and you descend the weathered staircase
+        into the dimly lit recess. As you enter the room, your initial examination yields a few
+        major landmarks. To your immediate right, a bar with only one patron and an admittedly
+        disinterested barkeep. To your left, in the far back, a small, home made stage of sorts
+        stocked only with a medium sized stack of speakers and a lone guitar. Filling the void
+        between, sporadic tables and chairs with few bodies within them. 
+    </scene>
+    <action>
+        You stand at the entrance, looking out of place. Better do something before you catch
+        the eye of any rogue local.
+    </action>
+    <choice>
+        <text>
+            Take a seat at the bar.
+        </text>
+        <linkNumber>
+            02
+        </linkNumber>
+        <text>
+            Examine the stage.
+        </text>
+        <linkNumber>
+            03
+        </linkNumber>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            04
+        </linkNumber>
+        <text>
+            Explore the room more deeply.
+        </text>
+        <linkNumber>
+            05
+        </linkNumber>
+        <text>
+            Exit the room.
+        </text>
+        <linkNumber>
+            06
+        </linkNumber>
+    </choice>
+</page>
