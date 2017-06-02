@@ -41,7 +41,7 @@ body {
     background-color: red;
     border: none;
     margin: 3px 0px;
-    padding: 5px 0px;
+    padding: 5px 5px;
 }
 .choices button:hover {
     cursor: pointer;
