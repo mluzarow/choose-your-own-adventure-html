@@ -53,7 +53,7 @@ function loadPage (pageNumber) {
         var newChoice = document.createElement ("BUTTON");
         newChoice.innerHTML = requestedPage.choices [i].text;
         newChoice.id = requestedPage.choices [i].linkNumber;
-        newChoice.addEventListener ("click", function () {loadPage (this.id);}, false);
+        newChoice.addEventListener ("click", function () {loadPage (this.id.trim ());}, false);
         
         elementChoices.appendChild (newChoice);
     }

@@ -1,3 +1,4 @@
+<XMLDOC>
 <page id="01">
     <title>
         You enter a dark room.
@@ -55,3 +56,59 @@
         </linkNumber>
     </choice>
 </page>
+
+<page id="06">
+    <title>
+        You ascend the stairs.
+    </title>
+    <scene>
+        Uncertain and fearful of the new environment, you immediately turn around and begin to retreat,
+        as is your standard. In your haste, you fumble midway through your climb and tumble back downwards.
+        As you regain consciousness, you find yourself sat at one of the tables you had noticed littering
+        the room.
+    </scene>
+    <action>
+        Confused, you contemplate staying a bit after all. It might be nice.
+    </action>
+    <choice>
+        <text>
+            Take a seat at the bar.
+        </text>
+        <linkNumber>
+            02
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Examine the stage.
+        </text>
+        <linkNumber>
+            03
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            04
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Explore the room more deeply.
+        </text>
+        <linkNumber>
+            05
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Exit the room (again).
+        </text>
+        <linkNumber>
+            07
+        </linkNumber>
+    </choice>
+</page>
+</XMLDOC>
