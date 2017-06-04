@@ -157,6 +157,43 @@
         </linkNumber>
     </choice>
 </page>
+<page id="09">
+    <title>
+        Flew in from Pittsburgh indeed.
+    </title>
+    <scene>
+        You take to the stage and a few heads swivel in your direction, eyes gleaming in the shadows. You search for a microphone, but the tangled cables running of the speakers lead only to a guitar.
+ You clear your throat,and attempt to project your voice. Unfortuently you can't porject your voice nearly enough for anyone to hear you. The good news is that you were just going to do trite unoriginal jokes anyway.
+    </scene>
+    <action>
+        You step down from the stage consider your next move. Whatever it is, it will surely be
+        less cringeworthy than this.
+    </action>
+    <choice>
+        <text>
+            Take a seat at the bar.
+        </text>
+        <linkNumber>
+            11
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Mingle about with some of the patrons.
+        </text>
+        <linkNumber>
+            12
+        </linkNumber>
+    </choice>
+    <choice>
+        <text>
+            Explore the room more deeply.
+        </text>
+        <linkNumber>
+            05
+        </linkNumber>
+    </choice>
+</page>
 
 <page id="10">
     <title>
