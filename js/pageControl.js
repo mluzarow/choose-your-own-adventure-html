@@ -35,8 +35,6 @@ window.onload = function () {
     
     // Dump the entire game into RAM
     loadGameText ();
-    
-    
 }
 
 function loadPage (pageNumber) {
@@ -65,11 +63,6 @@ function processGameText (data) {
     
     var rawPages = myXML.getElementsByTagName ("page");
     
-    //=========== Debug Stuff ============
-    for (var i = 0; i < rawPages.length; i++) {
-        console.log (rawPages [i]);
-    }
-    
     for (var i = 0; i < rawPages.length; i++) {
         // First get all the choices
         var rawChoices = rawPages [i].getElementsByTagName ("choice");
@@ -77,8 +70,8 @@ function processGameText (data) {
         
         // For each choice, make a new Choice class
         for (var j = 0; j < rawChoices.length; j++) {
-            var choiceToken = new Choice (rawChoices [j].getElementsByTagName ("text") [0].innerHTML,
-                                          rawChoices [j].getElementsByTagName ("linkNumber") [0].innerHTML);
+            var choiceToken = new Choice (rawChoices [j].innerHTML,
+                                          rawChoices [j].id.trim ());
             
             choices.push (choiceToken);
         }
@@ -92,8 +85,6 @@ function processGameText (data) {
         // Enter page into page dictionary
         pages [rawPages [i].id] = pageToken;
     }
-    //=========== Debug Stuff ============
-    console.log (pages ["01"]);
     
     // Load the first page of the adventure
     loadPage ("01");

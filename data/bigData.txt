@@ -15,45 +15,20 @@
         You stand at the entrance, looking out of place. Better do something before you catch
         the eye of any rogue local.
     </action>
-    <choice>
-        <text>
-            Take a seat at the bar.
-        </text>
-        <linkNumber>
-            02
-        </linkNumber>
+    <choice id="02">
+        Take a seat at the bar.
     </choice>
-    <choice>
-        <text>
-            Examine the stage.
-        </text>
-        <linkNumber>
-            03
-        </linkNumber>
+    <choice id="03">
+        Examine the stage.
     </choice>
-    <choice>
-        <text>
-            Mingle about with some of the patrons.
-        </text>
-        <linkNumber>
-            04
-        </linkNumber>
+    <choice id="04">
+        Mingle about with some of the patrons.
     </choice>
-    <choice>
-        <text>
-            Explore the room more deeply.
-        </text>
-        <linkNumber>
-            05
-        </linkNumber>
+    <choice id="05">
+        Explore the room more deeply.
     </choice>
-    <choice>
-        <text>
-            Exit the room.
-        </text>
-        <linkNumber>
-            06
-        </linkNumber>
+    <choice id="06">
+        Exit the room.
     </choice>
 </page>
 
@@ -69,37 +44,17 @@
     <action>
         You look back to the crowd to be met with expectant stares. Looks like they want a show.
     </action>
-    <choice>
-        <text>
-            Attempt to play the guitar.
-        </text>
-        <linkNumber>
-            08
-        </linkNumber>
+    <choice id="08">
+        Attempt to play the guitar.
     </choice>
-    <choice>
-        <text>
-            Perform stand-up comedy.
-        </text>
-        <linkNumber>
-            09
-        </linkNumber>
+    <choice id="09">
+        Perform stand-up comedy.
     </choice>
-    <choice>
-        <text>
-            Expand upon your thoughts regarding the current political climate.
-        </text>
-        <linkNumber>
-            10
-        </linkNumber>
+    <choice id="10">
+        Expand upon your thoughts regarding the current political climate.
     </choice>
-    <choice>
-        <text>
-            Back away from the stage.
-        </text>
-        <linkNumber>
-            11
-        </linkNumber>
+    <choice id="11">
+        Back away from the stage.
     </choice>
 </page>
 
@@ -116,45 +71,20 @@
     <action>
         Confused, you contemplate staying a bit after all. It might be nice.
     </action>
-    <choice>
-        <text>
-            Take a seat at the bar.
-        </text>
-        <linkNumber>
-            13
-        </linkNumber>
+    <choice id="13">
+        Take a seat at the bar.
     </choice>
-    <choice>
-        <text>
-            Examine the stage.
-        </text>
-        <linkNumber>
-            13
-        </linkNumber>
+    <choice id="13">
+        Examine the stage.
     </choice>
-    <choice>
-        <text>
-            Mingle about with some of the patrons.
-        </text>
-        <linkNumber>
-            14
-        </linkNumber>
+    <choice id="14">
+        Mingle about with some of the patrons.
     </choice>
-    <choice>
-        <text>
-            Explore the room more deeply.
-        </text>
-        <linkNumber>
-            13
-        </linkNumber>
+    <choice id="13">
+        Explore the room more deeply.
     </choice>
-    <choice>
-        <text>
-            Exit the room (again).
-        </text>
-        <linkNumber>
-            13
-        </linkNumber>
+    <choice id="13">
+        Exit the room (again).
     </choice>
 </page>
 
@@ -172,29 +102,14 @@
         You step down from the stage consider your next move. Whatever it is, it will surely be
         less awkward than this.
     </action>
-    <choice>
-        <text>
-            Take a seat at the bar.
-        </text>
-        <linkNumber>
-            11
-        </linkNumber>
+    <choice id="11">
+        Take a seat at the bar.
     </choice>
-    <choice>
-        <text>
-            Mingle about with some of the patrons.
-        </text>
-        <linkNumber>
-            12
-        </linkNumber>
+    <choice id="12">
+        Mingle about with some of the patrons.
     </choice>
-    <choice>
-        <text>
-            Explore the room more deeply.
-        </text>
-        <linkNumber>
-            05
-        </linkNumber>
+    <choice id="05">
+        Explore the room more deeply.
     </choice>
 </page>
 
@@ -215,37 +130,17 @@
     <action>
         You consider your next escape attempt.
     </action>
-    <choice>
-        <text>
-            Power up like a super saiyan and break these chains.
-        </text>
-        <linkNumber>
-            14
-        </linkNumber>
+    <choice id="14">
+        Power up like a super saiyan and break these chains.
     </choice>
-    <choice>
-        <text>
-            Rock the chair until the legs break off.
-        </text>
-        <linkNumber>
-            15
-        </linkNumber>
+    <choice id="15">
+        Rock the chair until the legs break off.
     </choice>
-    <choice>
-        <text>
-            Pick to lock of the chain.
-        </text>
-        <linkNumber>
-            16
-        </linkNumber>
+    <choice id="16">
+        Pick to lock of the chain.
     </choice>
-    <choice>
-        <text>
-            Mingle about with some of the patrons.
-        </text>
-        <linkNumber>
-            02
-        </linkNumber>
+    <choice id="02">
+        Mingle about with some of the patrons.
     </choice>
 </page>
 
@@ -266,29 +161,14 @@
         Out of breath and spiritually drained, you think of another approach. You are a regular
         old Houdini, you know that?
     </action>
-    <choice>
-        <text>
-            Rock the chair until the legs break off.
-        </text>
-        <linkNumber>
-            17
-        </linkNumber>
+    <choice id="17">
+        Rock the chair until the legs break off.
     </choice>
-    <choice>
-        <text>
-            Pick to lock of the chain.
-        </text>
-        <linkNumber>
-            18
-        </linkNumber>
+    <choice id="18">
+        Pick to lock of the chain.
     </choice>
-    <choice>
-        <text>
-            Mingle about with some of the patrons.
-        </text>
-        <linkNumber>
-            02
-        </linkNumber>
+    <choice id="02">
+        Mingle about with some of the patrons.
     </choice>
 </page>
 </XMLDOC>
