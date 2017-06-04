@@ -131,14 +131,15 @@ function loadGameText () {
             if (resp.status == 200) {
                 // Check for null input
                 if (!resp.responseText) {
-                    // Failure; exit
+                    console.error ("Error: Could not load data file contents.");
                     return;
                 }
                 
                 processGameText (resp.responseText);
             // Fail
             } else {
-                console.log ("We are doomed. File didn't load!");
+                console.error ("Error: HTTP request of data file unsuccessful.");
+                return;
             }
         }
     };
