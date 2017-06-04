@@ -5,6 +5,24 @@ var elementChoices;
 var choicesList = new Array ();
 var pages = new Array ();
 
+/*********************************************************************************
+**
+**  Page class.
+**
+**  Holds information regarding the content of the current page of the
+**  adventure. This information includes the four key sections of the
+**  page:
+**  - title:   The large header of the page containing a short sentence
+**             denoting an action. I.E. "You [verb]."
+**  - scene:   Grey text below the header describing the scene and outlining
+**             any actions that pertained to carrying out the last choice
+**             chosen.
+**  - action:  White text below the scene text which describes any actions or
+**             narrator quips immediately before the next action is chosen.
+**  - choices: A list of buttons containing possible choices (stored as Choice
+**             objects) which, when pressed, load the page for said choice.
+**
+**********************************************************************************/
 class Page {
     constructor (title="", scene="", action="", choices=false) {
         this.title = title;
@@ -18,7 +36,18 @@ class Page {
         }
     }
 }
-
+/*********************************************************************************
+**
+**  Choice class.
+**
+**  Holds information regarding the content of a choice, or any option given to
+**  the player which will lead them to the choice's linked page. A choice is made
+**  up of two items:
+**  - text:       The text content of the choice (flavortext).
+**  - linkNumber: The ID of the page to which this choice links. The chosen page
+**                will then load as the currently displayed page.
+**
+**********************************************************************************/
 class Choice {
     constructor (text="", linkNumber="") {
         this.text = text;
