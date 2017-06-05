@@ -95,7 +95,7 @@
     <scene>
         You take to the stage and a few heads swivel in your direction, eyes gleaming in the
         shadows. You search for a microphone, but the tangled cables running of the speakers
-        lead only to a guitar. You clear your throat,and attempt to project your voice. Unfortunately
+        lead only to a guitar. You clear your throat, and attempt to project your voice. Unfortunately
         you could not project your voice nearly enough for anyone to hear you. The good news is that
         you were just going to do trite unoriginal jokes anyway.
     </scene>
