@@ -101,7 +101,7 @@
     </scene>
     <action>
         You step down from the stage consider your next move. Whatever it is, it will surely be
-        less cringe-worthy than this.
+        less cringe-worthy than this. Flew in from Pittsburgh indeed.
     </action>
     <choice id="11">
         Take a seat at the bar.
