@@ -88,6 +88,32 @@
     </choice>
 </page>
 
+<page id="09">
+    <title>
+        You take center stage.
+    </title>
+    <scene>
+        You take to the stage and a few heads swivel in your direction, eyes gleaming in the
+        shadows. You search for a microphone, but the tangled cables running of the speakers
+        lead only to a guitar. You clear your throat,and attempt to project your voice. Unfortunately
+        you could not project your voice nearly enough for anyone to hear you. The good news is that
+        you were just going to do trite unoriginal jokes anyway.
+    </scene>
+    <action>
+        You step down from the stage consider your next move. Whatever it is, it will surely be
+        less cringe-worthy than this.
+    </action>
+    <choice id="11">
+        Take a seat at the bar.
+    </choice>
+    <choice id="12">
+        Mingle about with some of the patrons.
+    </choice>
+    <choice id="05">
+        Explore the room more deeply.
+    </choice>
+</page>
+
 <page id="10">
     <title>
         You proselytize.
