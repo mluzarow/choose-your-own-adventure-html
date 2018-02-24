@@ -1,17 +1,33 @@
+/**
+ * Game controller for loading game data and dealing out page data.
+ */
 class PageController {
 	constructor () {
-		// Capture all important elements
+		/**
+		 * @var {Element} elementTitle   container for scene title
+		 * @var {Element} elementScene   container for scene description
+		 * @var {Element} elementAction  container for action text
+		 * @var {Element} elementChoices container for choice buttons
+		 */
 		this.elementTitle = document.getElementsByClassName ("title")[0];
 		this.elementScene = document.getElementsByClassName ("scene")[0];
 		this.elementAction = document.getElementsByClassName ("action")[0];
 		this.elementChoices = document.getElementsByClassName ("choices")[0];
 		
+		/**
+		 * @type {Array} list of page data Page objects
+		 */
 		this.pages = [];
 		
 		// Dump the entire game into RAM
 		this.requestRawGameData ();
 	}
 	
+	/**
+	 * Refreshes the text of page elements with the data in Page object of ID.
+	 * 
+	 * @param {String} pageID ID of the new Page object to use
+	 */
 	loadPage (pageID) {
 		if (!this.pages.hasOwnProperty (pageID)) {
 			console.warn ("Attempt at loading ID [%s] which does not exist.", pageID);
@@ -43,6 +59,9 @@ class PageController {
 		}
 	}
 	
+	/**
+	 * Requests XML data from /data/bigData.txt containing game data for every page.
+	 */
 	requestRawGameData () {
 		// Create new request
 		var resp = new XMLHttpRequest ();
@@ -73,6 +92,12 @@ class PageController {
 		resp.send ();
 	}
 	
+	/**
+	 * Processes raw XML game data into Page and Choice objects sorted by included
+	 * page IDs.
+	 * 
+	 * @param {String} data raw XML data
+	 */
 	processRawGameData (data) {
 		var parser = new DOMParser ();
 		var myXML = parser.parseFromString (data, "text/xml");
