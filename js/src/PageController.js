@@ -88,7 +88,7 @@ class PageController {
 		}.bind (this);
 		
 		// Send request
-		resp.open ("GET", "data/bigData.txt");
+		resp.open ("GET", "data/bigData.xml");
 		resp.send ();
 	}
 	
