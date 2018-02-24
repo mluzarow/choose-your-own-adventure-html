@@ -12,6 +12,37 @@ class PageController {
 		this.requestRawGameData ();
 	}
 	
+	loadPage (pageID) {
+		if (!this.pages.hasOwnProperty (pageID)) {
+			console.warn ("Attempt at loading ID [%s] which does not exist.", pageID);
+			return;
+		}
+		
+		// Load page
+		var requestedPage = this.pages [pageID];
+		
+		this.elementTitle.innerHTML = requestedPage.title;
+		this.elementScene.innerHTML = requestedPage.scene;
+		this.elementAction.innerHTML = requestedPage.action;
+		
+		this.elementChoices.innerHTML = "";
+		
+		for (var i = 0; i < requestedPage.choices.length; i++) {
+			var newChoice = document.createElement ("BUTTON");
+			newChoice.innerHTML = requestedPage.choices [i].text;
+			newChoice.id = requestedPage.choices [i].linkNumber;
+			newChoice.addEventListener (
+				"click",
+				function (id) {
+					this.loadPage (id.trim ());
+				}.bind (this, newChoice.id),
+				false
+			);
+			
+			this.elementChoices.appendChild (newChoice);
+		}
+	}
+	
 	requestRawGameData () {
 		// Create new request
 		var resp = new XMLHttpRequest ();
@@ -42,7 +73,7 @@ class PageController {
 		resp.send ();
 	}
 	
-	processRawGameData () {
+	processRawGameData (data) {
 		var parser = new DOMParser ();
 		var myXML = parser.parseFromString (data, "text/xml");
 		
@@ -74,5 +105,7 @@ class PageController {
 			// Enter page into page dictionary
 			this.pages [rawPages [i].id] = pageToken;
 		}
+		
+		this.loadPage ("01");
 	}
 }
