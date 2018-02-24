@@ -1,49 +1,50 @@
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	background-color: black;
 	color: white;
 	font-family: "Arial";
 }
 
 .title {
-	font-size: 72pt;
 	padding-left: 15px;
+	font-size: 72pt;
 }
 
 .content {
-	font-size: 18pt;
+	margin: 0 15%;
 	color: grey;
-	margin: 0px 15%;
+	font-size: 18pt;
 }
 
 .action {
 	padding-top: 20px;
-	font-size: 18pt;
 	color: white;
+	font-size: 18pt;
 }
 
 .choices {
-	font-size: 20pt;
-	background-color: darkred;
-	display: inline-block;
-	padding: 10px 10px;
 	margin-top: 20px;
 	margin-left: 30%;
+	padding: 10px 10px;
+	display: inline-block;
+	background-color: darkred;
+	font-size: 20pt;
 }
 
 .choices button {
-	text-decoration: none;
-	display: block;
-	width: 100%;
-	font-size: 16pt;
-	color: white;
-	background-color: red;
-	border: none;
 	margin: 3px 0px;
 	padding: 5px 5px;
+	width: 100%;
+	display: block;
+	background-color: red;
+	border: none;
+	color: white;
+	text-decoration: none;
+	font-size: 16pt;
 }
+
 .choices button:hover {
-	cursor: pointer;
 	background-color: #F36F6F;
+	cursor: pointer;
 }
