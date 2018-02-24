@@ -1,200 +1,200 @@
 <XMLDOC>
 <page id="01">
-    <title>
-        You enter a dark room.
-    </title>
-    <scene>
-        An unfortunate tinge of must hits your nostrils and you descend the weathered staircase
-        into the dimly lit recess. As you enter the room, your initial examination yields a few
-        major landmarks. To your immediate right, a bar with only one patron and an admittedly
-        disinterested barkeep. To your left, in the far back, a small, home made stage of sorts
-        stocked only with a medium sized stack of speakers and a lone guitar. Filling the void
-        between, sporadic tables and chairs with few bodies within them. 
-    </scene>
-    <action>
-        You stand at the entrance, looking out of place. Better do something before you catch
-        the eye of any rogue local.
-    </action>
-    <choice id="02">
-        Take a seat at the bar.
-    </choice>
-    <choice id="03">
-        Examine the stage.
-    </choice>
-    <choice id="04">
-        Mingle about with some of the patrons.
-    </choice>
-    <choice id="05">
-        Explore the room more deeply.
-    </choice>
-    <choice id="06">
-        Exit the room.
-    </choice>
+	<title>
+		You enter a dark room.
+	</title>
+	<scene>
+		An unfortunate tinge of must hits your nostrils and you descend the weathered staircase
+		into the dimly lit recess. As you enter the room, your initial examination yields a few
+		major landmarks. To your immediate right, a bar with only one patron and an admittedly
+		disinterested barkeep. To your left, in the far back, a small, home made stage of sorts
+		stocked only with a medium sized stack of speakers and a lone guitar. Filling the void
+		between, sporadic tables and chairs with few bodies within them. 
+	</scene>
+	<action>
+		You stand at the entrance, looking out of place. Better do something before you catch
+		the eye of any rogue local.
+	</action>
+	<choice id="02">
+		Take a seat at the bar.
+	</choice>
+	<choice id="03">
+		Examine the stage.
+	</choice>
+	<choice id="04">
+		Mingle about with some of the patrons.
+	</choice>
+	<choice id="05">
+		Explore the room more deeply.
+	</choice>
+	<choice id="06">
+		Exit the room.
+	</choice>
 </page>
 
 <page id="03">
-    <title>
-        You examine the stage.
-    </title>
-    <scene>
-        A medium sized stack of speakers are connected to a rats nest of tangled threadbare cables. 
-        Leaned against them is a crimson electric guitar that's seen better days. The stage is wooden, the boards 
-        stained with decades of spilled beer and other liquids of dubious origin.
-    </scene>
-    <action>
-        You look back to the crowd to be met with expectant stares. Looks like they want a show.
-    </action>
-    <choice id="08">
-        Attempt to play the guitar.
-    </choice>
-    <choice id="09">
-        Perform stand-up comedy.
-    </choice>
-    <choice id="10">
-        Expand upon your thoughts regarding the current political climate.
-    </choice>
-    <choice id="11">
-        Back away from the stage.
-    </choice>
+	<title>
+		You examine the stage.
+	</title>
+	<scene>
+		A medium sized stack of speakers are connected to a rats nest of tangled threadbare cables. 
+		Leaned against them is a crimson electric guitar that's seen better days. The stage is wooden, the boards 
+		stained with decades of spilled beer and other liquids of dubious origin.
+	</scene>
+	<action>
+		You look back to the crowd to be met with expectant stares. Looks like they want a show.
+	</action>
+	<choice id="08">
+		Attempt to play the guitar.
+	</choice>
+	<choice id="09">
+		Perform stand-up comedy.
+	</choice>
+	<choice id="10">
+		Expand upon your thoughts regarding the current political climate.
+	</choice>
+	<choice id="11">
+		Back away from the stage.
+	</choice>
 </page>
 
 <page id="06">
-    <title>
-        You ascend the stairs.
-    </title>
-    <scene>
-        Uncertain and fearful of the new environment, you immediately turn around and begin to retreat,
-        as is your standard. In your haste, you fumble midway through your climb and tumble back downwards.
-        As you regain consciousness, you find yourself sat at one of the tables you had noticed littering
-        the room. Nobody seems to care regarding your buffoonery.
-    </scene>
-    <action>
-        Confused, you contemplate staying a bit after all. It might be nice.
-    </action>
-    <choice id="13">
-        Take a seat at the bar.
-    </choice>
-    <choice id="13">
-        Examine the stage.
-    </choice>
-    <choice id="14">
-        Mingle about with some of the patrons.
-    </choice>
-    <choice id="13">
-        Explore the room more deeply.
-    </choice>
-    <choice id="13">
-        Exit the room (again).
-    </choice>
+	<title>
+		You ascend the stairs.
+	</title>
+	<scene>
+		Uncertain and fearful of the new environment, you immediately turn around and begin to retreat,
+		as is your standard. In your haste, you fumble midway through your climb and tumble back downwards.
+		As you regain consciousness, you find yourself sat at one of the tables you had noticed littering
+		the room. Nobody seems to care regarding your buffoonery.
+	</scene>
+	<action>
+		Confused, you contemplate staying a bit after all. It might be nice.
+	</action>
+	<choice id="13">
+		Take a seat at the bar.
+	</choice>
+	<choice id="13">
+		Examine the stage.
+	</choice>
+	<choice id="14">
+		Mingle about with some of the patrons.
+	</choice>
+	<choice id="13">
+		Explore the room more deeply.
+	</choice>
+	<choice id="13">
+		Exit the room (again).
+	</choice>
 </page>
 
 <page id="09">
-    <title>
-        You take center stage.
-    </title>
-    <scene>
-        You take to the stage and a few heads swivel in your direction, eyes gleaming in the
-        shadows. You search for a microphone, but the tangled cables running of the speakers
-        lead only to a guitar. You clear your throat, and attempt to project your voice. Unfortunately
-        you could not project your voice nearly enough for anyone to hear you. The good news is that
-        you were just going to do trite unoriginal jokes anyway.
-    </scene>
-    <action>
-        You step down from the stage consider your next move. Whatever it is, it will surely be
-        less cringe-worthy than this. Flew in from Pittsburgh indeed.
-    </action>
-    <choice id="11">
-        Take a seat at the bar.
-    </choice>
-    <choice id="12">
-        Mingle about with some of the patrons.
-    </choice>
-    <choice id="05">
-        Explore the room more deeply.
-    </choice>
+	<title>
+		You take center stage.
+	</title>
+	<scene>
+		You take to the stage and a few heads swivel in your direction, eyes gleaming in the
+		shadows. You search for a microphone, but the tangled cables running of the speakers
+		lead only to a guitar. You clear your throat, and attempt to project your voice. Unfortunately
+		you could not project your voice nearly enough for anyone to hear you. The good news is that
+		you were just going to do trite unoriginal jokes anyway.
+	</scene>
+	<action>
+		You step down from the stage consider your next move. Whatever it is, it will surely be
+		less cringe-worthy than this. Flew in from Pittsburgh indeed.
+	</action>
+	<choice id="11">
+		Take a seat at the bar.
+	</choice>
+	<choice id="12">
+		Mingle about with some of the patrons.
+	</choice>
+	<choice id="05">
+		Explore the room more deeply.
+	</choice>
 </page>
 
 <page id="10">
-    <title>
-        You proselytize.
-    </title>
-    <scene>
-        You speak with passion and energy, regaling the audience with engaging anecdotes and
-        carefully articulated assessments. Two hours later, you conclude the lecture with stunned
-        silence from your viewers. Unfortunately, you forgot that you are an idiot and nothing
-        you had said made any sense. Luckily, nobody seems to care.
-    </scene>
-    <action>
-        You step down from the stage consider your next move. Whatever it is, it will surely be
-        less awkward than this.
-    </action>
-    <choice id="11">
-        Take a seat at the bar.
-    </choice>
-    <choice id="12">
-        Mingle about with some of the patrons.
-    </choice>
-    <choice id="05">
-        Explore the room more deeply.
-    </choice>
+	<title>
+		You proselytize.
+	</title>
+	<scene>
+		You speak with passion and energy, regaling the audience with engaging anecdotes and
+		carefully articulated assessments. Two hours later, you conclude the lecture with stunned
+		silence from your viewers. Unfortunately, you forgot that you are an idiot and nothing
+		you had said made any sense. Luckily, nobody seems to care.
+	</scene>
+	<action>
+		You step down from the stage consider your next move. Whatever it is, it will surely be
+		less awkward than this.
+	</action>
+	<choice id="11">
+		Take a seat at the bar.
+	</choice>
+	<choice id="12">
+		Mingle about with some of the patrons.
+	</choice>
+	<choice id="05">
+		Explore the room more deeply.
+	</choice>
 </page>
 
 <page id="13">
-    <title>
-        You attempt to rise from your seat.
-    </title>
-    <scene>
-        Overwhelming attraction to maintain seated envelops your being. You quickly rationalize
-        that this is a psychic force pushing you into the chair. You look to the ceiling as you
-        fight with all your mental might and prowess to overcome the mysterious binding.
-        
-        After a good forty five minutes, you slump, defeated and in anguish. You attempt to place
-        your head in your hands but forget that your hands are bound. You examine your arms only 
-        to find that they have been secured to the armrests with metal chains, as are your feet
-        to the legs of the chair. Perhaps you should have dealt with that first.
-    </scene>
-    <action>
-        You consider your next escape attempt.
-    </action>
-    <choice id="14">
-        Power up like a super saiyan and break these chains.
-    </choice>
-    <choice id="15">
-        Rock the chair until the legs break off.
-    </choice>
-    <choice id="16">
-        Pick to lock of the chain.
-    </choice>
-    <choice id="02">
-        Mingle about with some of the patrons.
-    </choice>
+	<title>
+		You attempt to rise from your seat.
+	</title>
+	<scene>
+		Overwhelming attraction to maintain seated envelops your being. You quickly rationalize
+		that this is a psychic force pushing you into the chair. You look to the ceiling as you
+		fight with all your mental might and prowess to overcome the mysterious binding.
+		
+		After a good forty five minutes, you slump, defeated and in anguish. You attempt to place
+		your head in your hands but forget that your hands are bound. You examine your arms only 
+		to find that they have been secured to the armrests with metal chains, as are your feet
+		to the legs of the chair. Perhaps you should have dealt with that first.
+	</scene>
+	<action>
+		You consider your next escape attempt.
+	</action>
+	<choice id="14">
+		Power up like a super saiyan and break these chains.
+	</choice>
+	<choice id="15">
+		Rock the chair until the legs break off.
+	</choice>
+	<choice id="16">
+		Pick to lock of the chain.
+	</choice>
+	<choice id="02">
+		Mingle about with some of the patrons.
+	</choice>
 </page>
 
 <page id="14">
-    <title>
-        You power up.
-    </title>
-    <scene>
-        You decide to channel all of your inner energy into powering up. You close your eyes
-        and concentrate, feeling the raw power build up within you. Soon, there is a tingling
-        spread through your limbs. You utter a shallow yell. As your spirit builds, you scream
-        louder and louder. Soon, you are bellowing at the top of your lungs. You feel as though
-        you can crush the world in your hands. You are the most powerful man in the universe.
-        It soon occurs to you that you have been doing nothing but yelling for roughly an hour
-        and had done nothing about your situation.
-    </scene>
-    <action>
-        Out of breath and spiritually drained, you think of another approach. You are a regular
-        old Houdini, you know that?
-    </action>
-    <choice id="17">
-        Rock the chair until the legs break off.
-    </choice>
-    <choice id="18">
-        Pick to lock of the chain.
-    </choice>
-    <choice id="02">
-        Mingle about with some of the patrons.
-    </choice>
+	<title>
+		You power up.
+	</title>
+	<scene>
+		You decide to channel all of your inner energy into powering up. You close your eyes
+		and concentrate, feeling the raw power build up within you. Soon, there is a tingling
+		spread through your limbs. You utter a shallow yell. As your spirit builds, you scream
+		louder and louder. Soon, you are bellowing at the top of your lungs. You feel as though
+		you can crush the world in your hands. You are the most powerful man in the universe.
+		It soon occurs to you that you have been doing nothing but yelling for roughly an hour
+		and had done nothing about your situation.
+	</scene>
+	<action>
+		Out of breath and spiritually drained, you think of another approach. You are a regular
+		old Houdini, you know that?
+	</action>
+	<choice id="17">
+		Rock the chair until the legs break off.
+	</choice>
+	<choice id="18">
+		Pick to lock of the chain.
+	</choice>
+	<choice id="02">
+		Mingle about with some of the patrons.
+	</choice>
 </page>
 </XMLDOC>
