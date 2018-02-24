@@ -5,7 +5,15 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
-	<script type="text/javascript" src="js/pageControl.js"></script>
+	<script type="text/javascript" src="js/src/PageController.js"></script>
+	
+	<script>
+		window.onload = function () {
+			// Loader
+			var pageController = new PageController ();
+			pageController.initialize ();
+		}
+	</script>
 	
 	<title>
 		Choose Your Own Adventure
