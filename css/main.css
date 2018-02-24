@@ -1,49 +1,81 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    color: white;
-    font-family: "Arial";
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	color: white;
+	font-family: "Arial";
 }
 
 .title {
-    font-size: 72pt;
-    padding-left: 15px;
+	padding-left: 15px;
+	font-size: 72pt;
 }
 
 .content {
-    font-size: 18pt;
-    color: grey;
-    margin: 0px 15%;
+	margin-left: 15%;
+	padding: 0 15px;
+	max-width: 1350px;
+	color: grey;
+	font-size: 18pt;
 }
 
 .action {
-    padding-top: 20px;
-    font-size: 18pt;
-    color: white;
+	padding-top: 20px;
+	color: white;
+	font-size: 18pt;
 }
 
 .choices {
-    font-size: 20pt;
-    background-color: darkred;
-    display: inline-block;
-    padding: 10px 10px;
-    margin-top: 20px;
-    margin-left: 30%;
+	margin: 20px auto 0 auto;
+	padding: 10px 10px;
+	width: 600px;
+	background-color: darkred;
+	font-size: 20pt;
 }
 
 .choices button {
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    font-size: 16pt;
-    color: white;
-    background-color: red;
-    border: none;
-    margin: 3px 0px;
-    padding: 5px 5px;
+	margin: 3px 0px;
+	padding: 5px 5px;
+	width: 100%;
+	display: block;
+	background-color: red;
+	border: none;
+	color: white;
+	text-decoration: none;
+	font-size: 16pt;
 }
+
 .choices button:hover {
-    cursor: pointer;
-    background-color: #F36F6F;
+	background-color: #F36F6F;
+	cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+	.title {
+		padding-bottom: 1em;
+		font-size: 4em;
+	}
+	
+	.content {
+		margin: 0;
+		padding-bottom: 30px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.choices {
+		margin: 15px;
+		width: auto;
+		display: block;
+	}
+	
+	.choices button {
+		padding: 10px 5px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.title {
+		font-size: 3em;
+	}
 }
