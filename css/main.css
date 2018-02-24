@@ -12,7 +12,9 @@ body {
 }
 
 .content {
-	margin: 0 15%;
+	margin-left: 15%;
+	padding: 0 15px;
+	max-width: 1350px;
 	color: grey;
 	font-size: 18pt;
 }
@@ -24,10 +26,9 @@ body {
 }
 
 .choices {
-	margin-top: 20px;
-	margin-left: 30%;
+	margin: 20px auto 0 auto;
 	padding: 10px 10px;
-	display: inline-block;
+	width: 600px;
 	background-color: darkred;
 	font-size: 20pt;
 }
@@ -47,4 +48,34 @@ body {
 .choices button:hover {
 	background-color: #F36F6F;
 	cursor: pointer;
+}
+
+@media all and (max-width: 768px) {
+	.title {
+		padding-bottom: 1em;
+		font-size: 4em;
+	}
+	
+	.content {
+		margin: 0;
+		padding-bottom: 30px;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	.choices {
+		margin: 15px;
+		width: auto;
+		display: block;
+	}
+	
+	.choices button {
+		padding: 10px 5px;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.title {
+		font-size: 3em;
+	}
 }
