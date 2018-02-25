@@ -24,6 +24,24 @@ body {
 	overflow: hidden;
 }
 
+.page_container.connecting {
+	margin-bottom: 30px;
+}
+
+.connector {
+	position: absolute;
+	top: 100%;
+	right: 50%;
+	width: 0;
+	height: 30px;
+	display: none;
+	border-right: 3px solid #0d91aa;
+}
+
+.page_container.connecting .connector {
+	display: block;
+}
+
 .choice_dropdown {
 	position: absolute;
 	margin-top: 20px;

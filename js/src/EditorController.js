@@ -20,6 +20,9 @@ class EditorController {
 		var timelineNode = document.createElement ("div");
 		timelineNode.classList.add ("page_container");
 		
+		var connector = document.createElement ("div");
+		connector.classList.add ("connector");
+		
 		var choiceDropdown = document.createElement ("div");
 		choiceDropdown.classList.add ("choice_dropdown");
 		choiceDropdown.classList.add ("closed");
@@ -45,6 +48,7 @@ class EditorController {
 				choiceItem.addEventListener ("click", function () {
 					choiceDropdown.classList.add ("closed");
 					choiceToggle.style.display = "none";
+					timelineNode.classList.add ("connecting");
 					this.drawNode(choiceID.innerHTML);
 				}.bind (this), false);
 			}
@@ -64,6 +68,7 @@ class EditorController {
 		pageTitle.classList.add ("page_title");
 		pageTitle.innerHTML = this.pages[id].title;
 		
+		timelineNode.append (connector);
 		timelineNode.append (choiceDropdown);
 		timelineNode.append (choiceToggle);
 		timelineNode.append (pageID);
