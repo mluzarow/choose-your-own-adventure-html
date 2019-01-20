@@ -197,4 +197,29 @@
 		Mingle about with some of the patrons.
 	</choice>
 </page>
+
+<page id="17">
+	<title>
+		You start rockin'.
+	</tile>
+	<scene>
+		Having returned to your senses, you come up with an igenious plan to rock
+		off the legs of the chair. You shift your weight from side to side; it's
+		slow at first, but slowly your momentum builds. The stomping of the chair
+		now fills the room as you teeter nearly at the edge.
+		
+		With one final push and a mighty grunt, you topple to the ground still
+		bound to your seat.
+	</scene>
+	<action>
+		Reunited with the floor, you consider your next move. After the last two
+		escape attempts, your are also completely exhausted.
+	</action>
+	<choice id="19">
+		Call out for help
+	</choice>
+	<choide id="20">
+		Begin to sweep softly to yourself
+	</choice>
+</page>
 </XMLDOC>
